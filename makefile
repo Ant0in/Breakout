@@ -9,7 +9,7 @@ CFLAGS = $(shell $(PKG_CONFIG) --cflags allegro-5 allegro_font-5 allegro_image-5
 
 # Cibles du projet
 TARGET = test
-SRCS = main.cpp ./engine/engine.cpp ./core/player_ball.cpp ./core/position2D.cpp
+SRCS = main.cpp ./engine/engine.cpp ./core/player_ball.cpp ./core/position2D.cpp ./core/solid_objects.cpp
 OBJS = $(SRCS:.cpp=.o)  # Création d'une liste des fichiers objets
 
 # Règles de construction

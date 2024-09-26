@@ -10,10 +10,7 @@
 class GameEngine {
 
     public:
-
         static void processCollision(PlayerBall& player);
-
-
 };
 
 #endif
